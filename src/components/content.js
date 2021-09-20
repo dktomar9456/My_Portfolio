@@ -24,10 +24,23 @@ function Content(props) {
           style={{ textDecoration: "none" }}
         >
           <button
-            style={{ display: obj.link ? "block" : "none" }}
-            className="btn btn-success text-light border shadow-sm p-2 mb-3 rounded"
+            style={{ display: obj.link ? "inline-block" : "none" }}
+            className="btn btn-sm btn-success text-light border shadow-sm p-2 mb-3 rounded mx-2"
           >
             GitHub
+          </button>
+        </a>
+        <a
+          href={obj.webLink}
+          target="_blank"
+          rel="noreferrer"
+          style={{ textDecoration: "none" }}
+        >
+          <button
+            style={{ display: obj.webLink ? "inline-block" : "none" }}
+            className="btn btn-sm btn-secondary text-light border shadow-sm p-2 mb-3 rounded mx-2"
+          >
+            Web_Link
           </button>
         </a>
       </li>
@@ -35,7 +48,7 @@ function Content(props) {
   });
 
   return (
-    <div className="container p-3 border shadow bg-light rounded " id={Id}>
+    <div className="container p-2 border shadow bg-light rounded" id={Id}>
       <h3 className=" mb-3 text-primary"> {props.heading} </h3>
 
       <ul> {AllContent} </ul>

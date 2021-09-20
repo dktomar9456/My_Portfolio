@@ -2,18 +2,20 @@ const data = {
   Projects: [
     {
       id: 1,
-      title: "Quizzing Website",
+      title: "Quiz App",
       content:
-        "it is a quiz website developed using React-JS, in which users have an option to choose a quiz. And then, it provides an interface for the selected quiz.",
+        "Developed a quiz website using React-JS, in which users have an option to choose a quiz. And then, it provides an interface for the selected quiz.",
       link: "https://github.com/dktomar9456/Quiz_App/tree/master",
+      webLink: "https://dktomar9456.github.io/Quiz_App/",
       duration: "(JULY 2021)",
     },
     {
       id: 2,
       title: "Web Portfolio",
       content:
-        "This is My web Portfolio. It contains all the information that is on my Resume. It uses a single component to store and Three components to render this information in a React app.",
-      link: "https://github.com/dktomar9456/Portfolio/tree/master",
+        "Developed a web Portfolio. It contains all the information that is on this Resume. It uses a single component to store and Three components to render this information in a React app.",
+      link: "https://github.com/dktomar9456/My_Portfolio/tree/master",
+      webLink: "https://dktomar9456.github.io/My_Portfolio/",
       duration: "(JULY 2021)",
     },
     {
@@ -22,6 +24,7 @@ const data = {
       content:
         "It is a working web app in which users can choose the color of upper and lower clothing and find the perfect color combination.",
       link: "https://github.com/dktomar9456/Dress_colour_combnation/tree/master",
+      webLink: "https://dktomar9456.github.io/Dress_colour_combnation/",
       duration: "(JUNE 2021)",
     },
     {
@@ -30,6 +33,7 @@ const data = {
       content:
         "it is a working web calculator in which user can give an expression as input and it returns the answer for that expression.",
       link: "https://github.com/dktomar9456/Simple_Web_Calculator/tree/master",
+      webLink: "https://dktomar9456.github.io/Dress_colour_combnation/",
       duration: "(MAY 2021)",
     },
   ],
@@ -85,13 +89,21 @@ const data = {
       id: 6,
       heading: "Object-Oriented Programming",
     },
+    {
+      id: 7,
+      heading: "Operating system & System Design",
+    },
+    {
+      id: 8,
+      heading: "English Professional Proficiency",
+    },
   ],
   Achivements: [
     { id: 1, heading: "Global rank 108 in CodeChef March Lunchtime (Div-3)." },
     {
       id: 2,
       heading:
-        "Secured AIR – 10858 in IIT JEE (Advance) 2019 with 99.1 percentile in JEE(Mains).",
+        "Ranked in top 1% among the 1.0 million aspirants in common merit list of IIT-JEE (Main + Advanced). ",
     },
     {
       id: 3,

@@ -39,6 +39,7 @@ class App extends React.Component {
           mouseTracking
           autoPlay
           autoPlayInterval={3000}
+          autoplayHoverPause="true"
         >
           <Image />
           <Content data={Data.Projects} heading="PROJECTS" />
