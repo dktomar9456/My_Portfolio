@@ -1,4 +1,15 @@
 const data = {
+  Experiences:[
+    {
+       id:1,
+       title:"Sparks Foundation Internship",
+       content:"Designed and implemented a banking system using React-Js. Developed an interactive money transfer facility between a dummy database of ten people",
+       link: "https://github.com/dktomar9456/Sparks_Foundation/tree/master",
+       webLink: "https://dktomar9456.github.io/Sparks_Foundation/",
+       certificate:"https://truecertificates.com/verified/DNFL2WA54P",
+       duration:"(Oct 2021 - Nov 2021)"
+    }
+  ],
   Projects: [
     {
       id: 1,
@@ -27,15 +38,7 @@ const data = {
       webLink: "https://dktomar9456.github.io/Dress_colour_combnation/",
       duration: "(JUNE 2021)",
     },
-    {
-      id: 4,
-      title: "Simple Web Calculator",
-      content:
-        "it is a working web calculator in which user can give an expression as input and it returns the answer for that expression.",
-      link: "https://github.com/dktomar9456/Simple_Web_Calculator/tree/master",
-      webLink: "https://dktomar9456.github.io/Dress_colour_combnation/",
-      duration: "(MAY 2021)",
-    },
+    
   ],
   Education: [
     {
@@ -43,7 +46,7 @@ const data = {
       title: "Indian Institute of Technology (ISM), Dhanbad",
       Class: "B.Tech, Petroleum Engineering",
       duration: "(July 2019 - May 2023)",
-      performance: "[CGPA - 7.92]",
+      performance: "[CGPA - 7.65]",
     },
     {
       id: 2,

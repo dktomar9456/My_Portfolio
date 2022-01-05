@@ -41,16 +41,7 @@ function Footer() {
             >
               <img src={Google} style={{ width: 58 + "px" }} alt="logo1" />
             </a>
-            <a
-              className="btn btn-link btn-floating m-2 "
-              href="https://www.facebook.com/devansh.tomar.908/"
-              target="_blank"
-              rel="noreferrer"
-              role="button"
-              data-mdb-ripple-color="dark"
-            >
-              <i className="fab fa-facebook fa-3x"></i>
-            </a>
+            
 
             <a
               className="btn btn-link btn-floating m-2"
@@ -63,16 +54,7 @@ function Footer() {
               <i className="fab fa-twitter fa-3x"></i>
             </a>
 
-            <a
-              className="btn btn-link btn-floating m-2"
-              href="https://www.instagram.com/devansh8031/?hl=en"
-              target="_blank"
-              rel="noreferrer"
-              role="button"
-              data-mdb-ripple-color="dark"
-            >
-              <img src={Insta} style={{ width: 50 + "px" }} alt="logo" />
-            </a>
+             
           </section>
         </div>
       </footer>

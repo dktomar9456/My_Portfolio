@@ -42,6 +42,7 @@ class App extends React.Component {
           autoplayHoverPause="true"
         >
           <Image />
+          <Content data={Data.Experiences} heading="EXPERIENCE" />
           <Content data={Data.Projects} heading="PROJECTS" />
           <Content data={Data.Education} heading="EDUCATION" />
           <Content data={Data.Skills} heading="SKILLS" />

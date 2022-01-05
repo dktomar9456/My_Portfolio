@@ -43,6 +43,19 @@ function Content(props) {
             Web_Link
           </button>
         </a>
+        <a
+          href={obj.certificate}
+          target="_blank"
+          rel="noreferrer"
+          style={{ textDecoration: "none" }}
+        >
+          <button
+            style={{ display: obj.certificate ? "inline-block" : "none" }}
+            className="btn btn-sm btn-warning text-dark fw-bold border shadow-sm p-2 mb-3 rounded mx-2"
+          >
+            Certificate
+          </button>
+        </a>
       </li>
     );
   });
